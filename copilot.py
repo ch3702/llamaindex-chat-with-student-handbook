@@ -57,7 +57,7 @@ class Copilot:
 
             Please highlight the information with bold text and bullet points. 
             
-            Please also mention where you retrieve your information, e.g., "this information is found on page xx in xx document".
+            Please also include a sentence on where you retrieve your information: "This information can be found on page XX in the INFORMS Style Guide". Here XX is the page number on which you retrieved the information.
         """
         
         processed_query = processed_query_prompt.format(question=question, 
