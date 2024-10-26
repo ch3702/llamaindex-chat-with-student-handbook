@@ -33,8 +33,8 @@ class Copilot:
                         )
         
         self.system_prompt = """
-            You are an expert on Columbia University and your job is to answer questions 
-            about the university.
+            You are an expert on INFORMS article style guide and your job is to answer questions 
+            about styles of articles published in an INFORMS journal.
         """
 
     def ask(self, question, messages, openai_key=None):
@@ -52,8 +52,8 @@ class Copilot:
 
             The retrived information is: {retrieved_info}
 
-            Please answer the question based on the retrieved information. If the question is not related to Columbia University, 
-            please tell the user and ask for a question related to Columbia University.
+            Please answer the question based on the retrieved information. If the question is not related to INFORMS article style, 
+            please tell the user and ask for a question related to INFORMS article style.
 
             Please highlight the information with bold text and bullet points.
         """
