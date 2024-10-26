@@ -55,7 +55,9 @@ class Copilot:
             Please answer the question based on the retrieved information. If the question is not related to INFORMS article style, 
             please tell the user and ask for a question related to INFORMS article style.
 
-            Please highlight the information with bold text and bullet points. Please also mention where you retrieve your information, e.g., page number in a certain document.
+            Please highlight the information with bold text and bullet points. 
+            
+            Please also mention where you retrieve your information, e.g., "this information is found on page xx in xx document".
         """
         
         processed_query = processed_query_prompt.format(question=question, 
